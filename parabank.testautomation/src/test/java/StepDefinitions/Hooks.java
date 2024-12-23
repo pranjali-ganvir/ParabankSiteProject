@@ -26,7 +26,6 @@ public class Hooks {
 			driver.manage().window().maximize();
 		}
 		
-		// You can add more setup steps based on specific scenarios
 		//if (scenario.getName().equals("Register a new account to ParaBank portal successfully")) {
 		if (scenario.getName().equals("Register a new account to ParaBank portal successfully")) { 
 			driver.get("https://parabank.parasoft.com/parabank/index.htm"); // Setyour login page URL
