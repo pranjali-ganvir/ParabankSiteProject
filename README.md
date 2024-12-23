@@ -19,8 +19,8 @@ In this project, I have automated core functionalities of the [Parabank online b
 
 ### Running the project
 
-Project can be run as _TestNG Suite_ by - right clicking the project and select "Run As -> TestNG Suite".
-To execute whole project use maven command - mvn clean test or right click on project - Run as - select maven clean and maven test to execute project
-Project can be run as _Junit Test Runner_ by - right clicking the Cucumber Test Runner class and select "Run As -> Test Runer.
-To update maven project right click the project, and select "Maven -> Update Project -> Check the 'Force Update of Snapshots/Releases' -> Ok". This will update the "Maven Dependencies" project.
-Run maven build command if you don't see "Maven Dependencies" folder: mvn clean install
+*Project can be run as _TestNG Suite_ by - right clicking the project and select "Run As -> TestNG Suite".
+*To execute whole project use maven command - mvn clean test or right click on project - Run as - select maven clean and maven test to execute project
+*Project can be run as _Junit Test Runner_ by - right clicking the Cucumber Test Runner class and select "Run As -> Test Runer.
+*To update maven project right click the project, and select "Maven -> Update Project -> Check the 'Force Update of Snapshots/Releases' -> Ok". This will update the "Maven Dependencies" project.
+*Run maven build command if you don't see "Maven Dependencies" folder: mvn clean install
