@@ -1,4 +1,4 @@
-Feature: ParaBank Register, login, create account and bill payment automation testing
+Feature: Test ParaBank site to verify Register, login, create account and bill payment functionality
 
   # Register account
   Scenario Outline: Register a new account to ParaBank portal successfully
@@ -10,7 +10,7 @@ Feature: ParaBank Register, login, create account and bill payment automation te
 
     Examples: 
       | firstname | lastname | address | city | state       | zip    | phone      | ssn  | username    | password         |
-      | Raman     | Verma    | Camp    | Pune | Maharashtra | 411023 | 9312312342 | 3421 | ramanjverma | ramanjverma@12345 |
+      | Renu     | Kapoor    | New city    |  Mumbai | Maharashtra | 440034 | 899066772 | 3123 | renukapoor | renukapoor@12345 |
 
   # Login account
   Scenario Outline: Login to ParaBank portal successfully
@@ -20,7 +20,7 @@ Feature: ParaBank Register, login, create account and bill payment automation te
 
     Examples: 
       | username    | password         |
-      | ramanjverma | ramanjverma@12345 |
+      | renukapoor | renukapoor@12345 |
 
   Scenario: Open new account
     When user clicks Open new account button
@@ -30,7 +30,7 @@ Feature: ParaBank Register, login, create account and bill payment automation te
 
   Scenario: Transfer amount
     When user clicks on Transfer Funds
-    And user enters 50 in the Amount textbox
+    And user enters 100 in the Amount textbox
     And user select from and to account dropbox
     And user clicks on Transfer button
     Then amount is transfered successfully
